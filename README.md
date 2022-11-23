@@ -1,2 +1,2 @@
 # C
-Learning C step by step
+Learning C programming with "Programming with Harry"
