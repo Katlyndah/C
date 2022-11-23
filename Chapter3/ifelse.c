@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+    int a = 3; //try with 32
+    if(a>4){
+        printf("a is greater than 4");
+    }
+    else{
+        printf("a is not greater than 4");
+    }
+    return 0;
+    //Else block is not necessary but optional
+}
