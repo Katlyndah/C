@@ -17,7 +17,7 @@ int main()
     int numberOfQuestions = sizeof(questions) / sizeof(questions[0]);
 
     char guess;
-    int score;
+    int score = 0; //need to initialize the variable
 
     printf("QUIZ GAME\n");
 
@@ -34,7 +34,7 @@ int main()
 
         printf("guess: ");
         scanf("%c", &guess);
-        scanf("%c");
+        scanf("%*c"); //removes new line from input buffer
 
         guess = toupper(guess);
 
